@@ -1,0 +1,88 @@
+body {
+  background-color: #fffaf5;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 30px;
+  color: #333;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#kleurPalet {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+#kleurPalet button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#kleurPalet button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#vormenContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+#vierkantVorm {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#vierkantVorm:hover {
+  transform: scale(1.1);
+}
+
+#rondVorm {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  border: 2px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#rondVorm:hover {
+  transform: scale(1.1);
+}
+
+#parallelogramVorm {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  border: 2px solid #000;
+  transform: skew(20deg);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#parallelogramVorm:hover {
+  transform: skew(20deg) scale(1.1);
+}
